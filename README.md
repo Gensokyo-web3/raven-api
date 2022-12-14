@@ -9,3 +9,18 @@ Main features:
 - Data source: RAVEN's web2 (Centralized) data source for web3 smart contract.
 
 > NOTICE: Project under construction.
+
+## DEVELOP
+
+### Install deps
+```shell
+$ deno cache ./deps.ts
+```
+### test
+```shell
+$ deno test --allow-net --allow-env
+```
+### Watch && develop run
+```shell
+$ deno run -A --watch main.ts
+```
