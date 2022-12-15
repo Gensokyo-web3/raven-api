@@ -38,5 +38,10 @@ Deno.test('get nonce by address, sign by wallet signer and verify', async () => 
     .set('Authorization', `Bearer ${verifyResponse.body.token}`)
     .expect(200);
 
+  const request3Failure = await superoak(app);
+  await request3Failure.get(`/verify`)
+    // .set('Content-Type', 'application/json')
+    .set('Authorization', `Bearer ${verifyResponse.body.token}someWrongThings`)
+    .expect(400);
 
 });
