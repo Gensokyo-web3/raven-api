@@ -12,6 +12,8 @@ Main features:
 
 ## DEVELOP
 
+⚙️ Raven API docs: 👉 [\<API docs\>](./doc/api.md)
+
 ### Install deps
 ```shell
 $ deno cache ./deps.ts
