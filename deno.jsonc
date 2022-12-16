@@ -1,0 +1,6 @@
+{
+  "tasks": {
+    "db:sync":
+      "deno run --allow-net --allow-read --allow-write --allow-env --unstable scripts/syncDB.ts"
+  }
+}

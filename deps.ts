@@ -5,3 +5,5 @@ export { ethers } from 'https://cdn.ethers.io/lib/ethers-5.4.6.esm.min.js';
 
 // for test
 export { superoak } from "https://deno.land/x/superoak/mod.ts";
+
+export { DataTypes, Database, Model, PostgresConnector } from 'https://deno.land/x/denodb/mod.ts';
