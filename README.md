@@ -24,3 +24,9 @@ $ deno test --allow-net --allow-env
 ```shell
 $ deno run -A --watch main.ts
 ```
+
+### sync PostgreSQL DB table
+Don't remember create the database.
+```shell
+$ deno task db:sync
+```
